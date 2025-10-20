@@ -1,16 +1,5 @@
-{
-  category = [
-    { title: 'Thiết bị hình ảnh' },
-    { title: 'Tay khoan và các loại tay máy hỗ trợ khác' },
-    { title: 'Thiết bị nội nha' },
-    { title: 'Thiết bị điều trị phục hồi thẩm mỹ' },
-    { title: 'Hệ thống vô khuẩn' },
-    { title: 'Ghế nha khoa' },
-    { title: 'Thiết bị hỗ trợ vận hành ghế nha khoa' },
-    { title: 'Thiết bị phẫu thuật implant' },
-    { title: 'Thiết bị-vật tư hỗ trợ khác' },
-  ]
-  product = [
+module.exports = {
+  product: [
     {
       title: 'Gương + hút C Miror COXO',
       description:
@@ -401,19 +390,6 @@
       introduce:
         "<strong>Ưu điểm nổi bật:</strong><br />\n<ul>\n<li>Thiết kế c&ocirc;ng th&aacute;i học cho phần tựa lưng mỏng, tạo th&ecirc;m kh&ocirc;ng gian di chuyển khu vực dưới ch&acirc;n cho b&aacute;c sĩ, gi&uacute;p b&aacute;c sĩ c&oacute; thể duy tr&igrave; tư thế l&agrave;m việc trong thời gian d&agrave;i hơn m&agrave; tr&aacute;nh bị đau nhức.</li>\n<li>Tựa lưng v&agrave; đệm ngồi di chuyển đồng bộ gi&uacute;p chuyển động tốt nhất m&agrave; kh&ocirc;ng bị cọ x&aacute;t lưng trong qu&aacute; tr&igrave;nh điều trị.</li>\n<li>T&iacute;ch hợp chế độ cảm biến th&ocirc;ng minh, ghế dừng tự động v&agrave; n&acirc;ng nhẹ l&ecirc;n khi gặp lực cản b&ecirc;n dưới.</li>\n<li>Ghế v&agrave; tựa lưng tự động di chuyển đến vị tr&iacute; th&iacute;ch hợp để bệnh nh&acirc;n s&uacute;c miệng v&agrave; quay lại vị tr&iacute; thao t&aacute;c ban đầu bằng một n&uacute;t bấm</li>\n<li>Vỏ bọc da PU cao cấp chống m&agrave;i m&ograve;n, mềm mại v&agrave; tho&aacute;ng kh&iacute;. Phần đệm l&oacute;t c&oacute; độ đ&agrave;n hồi cao đảm bảo sự thoải m&aacute;i cho người bệnh.</li>\n<li>3 chế độ c&agrave;i đặt tương ứng 9 vị tr&iacute; nhớ ghế.</li>\n<li>Khả năng ph&aacute;t nhạc qua kết nối bluetooth mang đến sự thư gi&atilde;n khi điều trị.</li>\n<li>Hệ thống ASTER tự động được điều khiển bằng một n&uacute;t bấm, cung cấp khả năng khử tr&ugrave;ng chuy&ecirc;n s&acirc;u cho tất cả c&aacute;c mạch b&ecirc;n trong d&acirc;y tay khoan v&agrave; ống h&uacute;t của ghế bằng chất lỏng khử tr&ugrave;ng.</li>\n<li>Bồn thải c&oacute; thể th&aacute;o rời v&agrave; xoay 180 độ, c&oacute; độ s&acirc;u v&agrave; dung t&iacute;ch lớn, tr&aacute;nh giọt bắn hiệu quả.</li>\n<li>Đ&egrave;n c&oacute; &aacute;nh s&aacute;ng gần với &aacute;nh s&aacute;ng tự nhi&ecirc;n, thiết kế dễ sử dụng&nbsp;</li>\n<li>Vệ sinh dễ d&agrave;ng với một ph&iacute;m bấm: Tắt đ&egrave;n, ghế sẽ n&acirc;ng l&ecirc;n vị tr&iacute; cao nhất v&agrave; bồn s&uacute;c miệng tự xả, tr&aacute;nh tắc nghẽn đường ống v&agrave; m&ugrave;i h&ocirc;i, n&acirc;ng cao hiệu quả c&ocirc;ng việc.</li>\n</ul>\n<strong><strong>Th&ocirc;ng số kỹ thuật:<br /></strong></strong>\n<ul>\n<li>Điện &aacute;p đầu v&agrave;o: 230V &plusmn;10%, 50Hz</li>\n<li>&Aacute;p lực nước: 0.2-0.4Mpa/2.0-4.0 bar</li>\n<li>&Aacute;p suất kh&ocirc;ng kh&iacute;: 0,55-0,8Mpa/5,5-8,0 bar</li>\n<li>Trọng lượng: 220kg</li>\n</ul>\n<strong><strong>Th&ocirc;ng số kh&aacute;c:<br /></strong></strong>\n<ul>\n<li>Ống dẫn kh&iacute; (4/8 ống n&oacute;ng chảy 1/2 ren v&iacute;t)</li>\n<li>Ống nước đầu ra (2'' ống PVC)</li>\n<li>Ống nước đầu v&agrave;o (4/8'' ống n&oacute;ng chảy 1/2 ren v&iacute;t)</li>\n<li>Ống h&uacute;t (1'' ống PVC)</li>\n<li>Ống c&aacute;p t&iacute;n hiệu (4/8'' ống PVC)</li>\n<li>Ống c&aacute;p điện (4/8'' ống PVC)</li>\n</ul>\n<strong><br /><br /></strong>",
     },
-    {
-      title: 'Ghế Nha khoa Cingol X3 New Cart',
-      description:
-        'Ghế Nha khoa Cingol X3 New Cart là dòng là dòng ghế có nhiều cải tiến vượt trội cả về thiết kế lẫn chức năng. Đặc biệt, thiết kế của ghế Nha khoa Cingol X3 New Cart được Cingol cho là chuẩn mực vẻ đẹp của thiết kế thanh lịch.',
-      originalPrice: 0,
-      salePrice: 0,
-      productPics: ['ac06743c31c21b0d12424e837e6fcdcd.png'],
-      quantity: 1,
-      brand: 'Cingol',
-      origin: 'China',
-      introduce:
-        '<strong>Ưu điểm nổi bật:</strong><br />\n<ul>\n<li>T&iacute;ch hợp chế độ cảm biến th&ocirc;ng minh, ghế dừng tự động v&agrave; n&acirc;ng nhẹ l&ecirc;n khi gặp lực cản b&ecirc;n dưới.</li>\n<li>Thiết kế C&ocirc;ng Th&aacute;i Học cho phần tựa lưng mỏng, tạo th&ecirc;m kh&ocirc;ng gian di chuyển khu vực dưới ch&acirc;n cho b&aacute;c sĩ, gi&uacute;p b&aacute;c sĩ c&oacute; thể duy tr&igrave; tư thế l&agrave;m việc trong thời gian d&agrave;i hơn m&agrave; tr&aacute;nh bị đau nhức.</li>\n<li>Tựa lưng v&agrave; đệm ngồi di chuyển đồng bộ gi&uacute;p chuyển động tốt nhất m&agrave; kh&ocirc;ng bị cọ x&aacute;t lưng trong qu&aacute; tr&igrave;nh điều trị.</li>\n<li>Hệ thống ASTER tự động được điều khiển bằng một n&uacute;t bấm, cung cấp khả năng khử tr&ugrave;ng chuy&ecirc;n s&acirc;u cho tất cả c&aacute;c mạch b&ecirc;n trong d&acirc;y tay khoan v&agrave; ống h&uacute;t của ghế bằng chất lỏng khử tr&ugrave;ng.</li>\n<li>Vệ sinh dễ d&agrave;ng với một ph&iacute;m bấm: tắt đ&egrave;n, ghế sẽ n&acirc;ng l&ecirc;n vị tr&iacute; cao nhất v&agrave; bồn s&uacute;c miệng tự xả, tr&aacute;nh tắc nghẽn đường ống v&agrave; m&ugrave;i h&ocirc;i, n&acirc;ng cao hiệu quả c&ocirc;ng việc.</li>\n</ul>',
-    },
 
     {
       title: 'Ghế Nha khoa Cingol X1 New Cart',
@@ -637,19 +613,6 @@
         '<strong>T&iacute;nh năng nổi bật của sản phẩm</strong><br />M&aacute;y đ&oacute;ng g&oacute;i dụng cụ SINOLE (S-3) (10-01) gi&uacute;p đ&oacute;ng g&oacute;i c&aacute;c dụng cụ nha khoa đ&atilde; được tiệt tr&ugrave;ng tại ph&ograve;ng kh&aacute;m để đảm bảo an to&agrave;n v&agrave; n&acirc;ng cao chất lượng điều trị.<br /><strong>Đặc t&iacute;nh nổi bật:</strong><br />Bề ngang 30 cm lắp được nhiều k&iacute;ch thước cuộn t&uacute;i đ&oacute;ng g&oacute;i.<br /><strong>Lợi &iacute;ch:</strong><br />\n<ul>\n<li>D&ugrave;ng được với t&uacute;i đ&oacute;ng g&oacute;i k&iacute;ch thước 30 cm (đảm bảo vừa những c&acirc;y dụng</li>\n<li>cụ cỡ lớn trong kỹ thuật Implant).</li>\n<li>Đốt nhiệt cao đảm bảo t&uacute;i được đ&oacute;ng k&iacute;n.</li>\n</ul>\n<strong>Th&ocirc;ng số kĩ thuật:</strong><br />\n<ul>\n<li>Nguồn điện: 220 (V) (50 (Hz)</li>\n<li>C&ocirc;ng suất: 300 (W)</li>\n<li>Độ rộng đ&oacute;ng g&oacute;i: 0-300 (mm)</li>\n</ul>',
     },
     {
-      title: 'Gương + hút C Miror COXO',
-      description:
-        'Gương + hút C Miror COXO có khả năng chống thấm nước và chống sương mù, đảm bảo tầm nhìn độ nét cao trong quá trình sử dụng.',
-      originalPrice: 100000,
-      salePrice: 100000,
-      productPics: ['48576f8b4151501135724bbd25cabdee.jpg'],
-      quantity: 1,
-      brand: 'COXO',
-      origin: 'China',
-      introduce:
-        '<strong>Đặc t&iacute;nh nổi bật:</strong><br />Mặt gương chống sương m&ugrave; HD.<br />Thiết kế c&ugrave;ng lớp phủ nano sinh học, chống thấm nước v&agrave; chống sương m&ugrave;, đảm bảo tầm nh&igrave;n độ n&eacute;t cao.<br />Thiết kế lỗ h&uacute;t h&igrave;nh quạt gi&uacute;p tăng lực h&uacute;t ở mức tối đa.<br />D&acirc;y kết nối c&oacute; thể hấp sấy tiệt tr&ugrave;ng.<br /><strong>Lợi &iacute;ch:</strong><br />T&iacute;ch hợp t&iacute;nh năng h&uacute;t ở mặt dưới để nha sĩ rảnh tay đồng thời giảm số lượng dụng cụ trong miệng bệnh nh&acirc;n gi&uacute;p đem lại cảm gi&aacute;c tho&aacute;i m&aacute;i.<br />Tiết kiệm thời gian thao t&aacute;c, &iacute;t g&acirc;y trở ngại cho nha sĩ v&agrave; trợ l&yacute;.<br /><strong>Th&ocirc;ng số kĩ thuật:</strong><br />Đ&oacute;ng g&oacute;i: 500 gương + 1 d&acirc;y kết nối/1 hộp carton<br />K&iacute;ch thước: 40x30x18 (cm)<br />Trọng lượng: 2.0 (kg)',
-    },
-    {
       title: 'Máy rung rửa TPC 7.5L (UC750)',
       description:
         'Máy rung rửa TPC 7.5L (UC750) dùng sóng rung siêu âm để đánh bay các mảng bám, vết bẩn trên dụng cụ khó làm sạch bằng phương pháp vệ sinh thông thường.',
@@ -662,5 +625,334 @@
       introduce:
         '<strong>Đặc t&iacute;nh nổi bật:</strong><br />D&ugrave;ng s&oacute;ng rung si&ecirc;u &acirc;m để đ&aacute;nh bay c&aacute;c mảng b&aacute;m, vết bẩn tr&ecirc;n dụng cụ kh&oacute; l&agrave;m sạch bằng phương ph&aacute;p vệ sinh th&ocirc;ng thường.<br /><br /><strong>Lợi &iacute;ch:</strong><br />Với việc sử dụng s&oacute;ng si&ecirc;u &acirc;m l&agrave;m sạch c&aacute;c vết bẩn cũng như vi khuẩn, dụng cụ kỹ thuật được đảm bảo vệ sinh loại bỏ 95-99% c&aacute;c loại vết bẩn trước khi mang đi hấp sấy tiệt tr&ugrave;ng.<br /><br /><strong>Th&ocirc;ng số kĩ thuật:</strong><br />\n<ul>\n<li>C&ocirc;ng suất: 310 (W)</li>\n<li>Thể t&iacute;ch: 7.5 (L)</li>\n<li>Tần số rung: 50/60 (Hz)</li>\n<li>K&iacute;ch thước: 54.1x33.8x27.7 (cm)</li>\n</ul>',
     },
-  ]
+  ],
+  productCategory: [
+    // 🔹 Thiết bị chẩn đoán & hình ảnh
+    {
+      _id: '68f5f69831e0df0df3c67531',
+      titleProduct: 'Máy Scan Film X-Quang TYRIS (TR120)',
+      titleCategory: 'Thiết bị hình ảnh',
+      titleDirectory: 'Thiết bị chẩn đoán & hình ảnh',
+    },
+    {
+      _id: '68f5f69831e0df0df3c67532',
+      titleProduct: 'Máy Scan Film X-Quang TYRIS (TR300)',
+      titleCategory: 'Thiết bị hình ảnh',
+      titleDirectory: 'Thiết bị chẩn đoán & hình ảnh',
+    },
+    {
+      _id: '68f5f69831e0df0df3c67530',
+      titleProduct: 'Máy chụp X-quang XPECT VISION (X05R)',
+      titleCategory: 'Thiết bị hình ảnh',
+      titleDirectory: 'Thiết bị chẩn đoán & hình ảnh',
+    },
+    {
+      _id: '68f5f69831e0df0df3c67550',
+      titleProduct: 'Sensor Xpect Vision',
+      titleCategory: 'Thiết bị hình ảnh',
+      titleDirectory: 'Thiết bị chẩn đoán & hình ảnh',
+    },
+    {
+      _id: '68f5f69831e0df0df3c6754f',
+      titleProduct: 'Xvbeam 1000',
+      titleCategory: 'Thiết bị hình ảnh',
+      titleDirectory: 'Thiết bị chẩn đoán & hình ảnh',
+    },
+
+    // 🔹 Dụng cụ cầm tay & máy hỗ trợ
+    {
+      _id: '68f5f69831e0df0df3c67533',
+      titleProduct: 'Tay khoan Model Premium 100 M4',
+      titleCategory: 'Tay khoan và các loại tay máy hỗ trợ khác',
+      titleDirectory: 'Dụng cụ cầm tay & máy hỗ trợ',
+    },
+    {
+      _id: '68f5f69831e0df0df3c67534',
+      titleProduct: 'Tay khoan Jindell Premium 200 M4',
+      titleCategory: 'Tay khoan và các loại tay máy hỗ trợ khác',
+      titleDirectory: 'Dụng cụ cầm tay & máy hỗ trợ',
+    },
+    {
+      _id: '68f5f69831e0df0df3c6753e',
+      titleProduct: 'Tay khoan Jindell Premium EX-203C-M4',
+      titleCategory: 'Tay khoan và các loại tay máy hỗ trợ khác',
+      titleDirectory: 'Dụng cụ cầm tay & máy hỗ trợ',
+    },
+    {
+      _id: '68f5f69831e0df0df3c67553',
+      titleProduct: 'Tay khoan Jindell Premium Led 500 QD',
+      titleCategory: 'Tay khoan và các loại tay máy hỗ trợ khác',
+      titleDirectory: 'Dụng cụ cầm tay & máy hỗ trợ',
+    },
+
+    // 🔹 Thiết bị điều trị & phục hồi
+    {
+      _id: '68f5f69831e0df0df3c67535',
+      titleProduct: 'Máy thử tủy C-Pulse COXO',
+      titleCategory: 'Thiết bị nội nha',
+      titleDirectory: 'Thiết bị điều trị & phục hồi',
+    },
+    {
+      _id: '68f5f69831e0df0df3c67536',
+      titleProduct: 'Máy điều trị nội nha Smart I Pilot S COXO',
+      titleCategory: 'Thiết bị nội nha',
+      titleDirectory: 'Thiết bị điều trị & phục hồi',
+    },
+    {
+      _id: '68f5f69831e0df0df3c67537',
+      titleProduct: 'Hệ thống lèn nhiệt C-FILL MINI COXO',
+      titleCategory: 'Thiết bị nội nha',
+      titleDirectory: 'Thiết bị điều trị & phục hồi',
+    },
+    {
+      _id: '68f5f69831e0df0df3c67538',
+      titleProduct: 'Máy rung rửa ống tủy ULTRA SMART COXO',
+      titleCategory: 'Thiết bị nội nha',
+      titleDirectory: 'Thiết bị điều trị & phục hồi',
+    },
+    {
+      _id: '68f5f69831e0df0df3c6754d',
+      titleProduct: 'Máy cắt Gutta Sinole',
+      titleCategory: 'Thiết bị nội nha',
+      titleDirectory: 'Thiết bị điều trị & phục hồi',
+    },
+    {
+      _id: '68f5f69831e0df0df3c67555',
+      titleProduct: 'Gương + hút C Miror COXO',
+      titleCategory: 'Thiết bị nội nha',
+      titleDirectory: 'Thiết bị điều trị & phục hồi',
+    },
+
+    {
+      _id: '68f5f69831e0df0df3c67539',
+      titleProduct: 'Đèn quang trùng hợp Swift COXO (686)',
+      titleCategory: 'Thiết bị điều trị phục hồi thẩm mỹ',
+      titleDirectory: 'Thiết bị điều trị & phục hồi',
+    },
+    {
+      _id: '68f5f69831e0df0df3c6753a',
+      titleProduct: 'Đèn tẩy trắng C-BRIGHT COXO',
+      titleCategory: 'Thiết bị điều trị phục hồi thẩm mỹ',
+      titleDirectory: 'Thiết bị điều trị & phục hồi',
+    },
+    {
+      _id: '68f5f69831e0df0df3c6753d',
+      titleProduct: 'Đèn quang trùng hợp (Đèn trám) Lắp ghế On board Baolai BLC-A',
+      titleCategory: 'Thiết bị điều trị phục hồi thẩm mỹ',
+      titleDirectory: 'Thiết bị điều trị & phục hồi',
+    },
+    {
+      _id: '68f5f69831e0df0df3c6752b',
+      titleProduct: 'Đèn Quang Trùng Hợp Bao Lai',
+      titleCategory: 'Thiết bị điều trị phục hồi thẩm mỹ',
+      titleDirectory: 'Thiết bị điều trị & phục hồi',
+    },
+    {
+      _id: '68f5f69831e0df0df3c6752c',
+      titleProduct: 'Máy cấy ghép Implant - Coxo (C-Sailor Pro)',
+      titleCategory: 'Thiết bị phẫu thuật implant',
+      titleDirectory: 'Thiết bị điều trị & phục hồi',
+    },
+
+    // 🔹 Thiết bị vô khuẩn & an toàn
+    {
+      _id: '68f5f69831e0df0df3c6752d',
+      titleProduct: 'Máy vô khuẩn Lafomed 23L',
+      titleCategory: 'Hệ thống vô khuẩn',
+      titleDirectory: 'Thiết bị vô khuẩn & an toàn',
+    },
+    {
+      _id: '68f5f69831e0df0df3c67551',
+      titleProduct: 'Máy rung rửa TPC 6L (UC600)',
+      titleCategory: 'Hệ thống vô khuẩn',
+      titleDirectory: 'Thiết bị vô khuẩn & an toàn',
+    },
+    {
+      _id: '68f5f69831e0df0df3c67528',
+      titleProduct: 'Máy rung rửa TPC 7.5L (UC750)',
+      titleCategory: 'Hệ thống vô khuẩn',
+      titleDirectory: 'Thiết bị vô khuẩn & an toàn',
+    },
+    {
+      _id: '68f5f69831e0df0df3c67529',
+      titleProduct: 'Máy rung rửa siêu âm Sinole 5L (11-01)',
+      titleCategory: 'Hệ thống vô khuẩn',
+      titleDirectory: 'Thiết bị vô khuẩn & an toàn',
+    },
+    {
+      _id: '68f5f69831e0df0df3c67554',
+      titleProduct: 'Máy đóng gói dụng cụ Sinole (S-3) (10-01)',
+      titleCategory: 'Hệ thống vô khuẩn',
+      titleDirectory: 'Thiết bị vô khuẩn & an toàn',
+    },
+    {
+      _id: '68f5f69831e0df0df3c67552',
+      titleProduct: 'Túi đóng gói DC: Sinole (11-03)',
+      titleCategory: 'Hệ thống vô khuẩn',
+      titleDirectory: 'Thiết bị vô khuẩn & an toàn',
+    },
+    {
+      _id: '68f5f69831e0df0df3c6752a',
+      titleProduct: 'Máy rửa xịt khoan Sinole (HP-300II) (8-01)',
+      titleCategory: 'Hệ thống vô khuẩn',
+      titleDirectory: 'Thiết bị vô khuẩn & an toàn',
+    },
+
+    // 🔹 Thiết bị hỗ trợ & vận hành
+    {
+      _id: '68f5f69831e0df0df3c67540',
+      titleProduct: 'Ghế Nha khoa Cingol X1 Cart',
+      titleCategory: 'Ghế nha khoa',
+      titleDirectory: 'Thiết bị hỗ trợ & vận hành',
+    },
+    {
+      _id: '68f5f69831e0df0df3c6753f',
+      titleProduct: 'Ghế Nha khoa Cingol X1',
+      titleCategory: 'Ghế nha khoa',
+      titleDirectory: 'Thiết bị hỗ trợ & vận hành',
+    },
+    {
+      _id: '68f5f69831e0df0df3c67541',
+      titleProduct: 'Ghế Nha khoa Cingol X1 New',
+      titleCategory: 'Ghế nha khoa',
+      titleDirectory: 'Thiết bị hỗ trợ & vận hành',
+    },
+    {
+      _id: '68f5f69831e0df0df3c67542',
+      titleProduct: 'Ghế Nha khoa Cingol X3',
+      titleCategory: 'Ghế nha khoa',
+      titleDirectory: 'Thiết bị hỗ trợ & vận hành',
+    },
+    {
+      _id: '68f5f69831e0df0df3c67543',
+      titleProduct: 'Ghế Nha khoa Cingol X3 New',
+      titleCategory: 'Ghế nha khoa',
+      titleDirectory: 'Thiết bị hỗ trợ & vận hành',
+    },
+    {
+      _id: '68f5f69831e0df0df3c67544',
+      titleProduct: 'Ghế Nha khoa Cingol X3 New Cart',
+      titleCategory: 'Ghế nha khoa',
+      titleDirectory: 'Thiết bị hỗ trợ & vận hành',
+    },
+    {
+      _id: '68f5f69831e0df0df3c67545',
+      titleProduct: 'Ghế Nha khoa Cingol X1 New Cart',
+      titleCategory: 'Ghế nha khoa',
+      titleDirectory: 'Thiết bị hỗ trợ & vận hành',
+    },
+    {
+      _id: '68f5f69831e0df0df3c67546',
+      titleProduct: 'Ghế Nha khoa Cingol X3 New Top',
+      titleCategory: 'Ghế nha khoa',
+      titleDirectory: 'Thiết bị hỗ trợ & vận hành',
+    },
+    {
+      _id: '68f5f69831e0df0df3c67547',
+      titleProduct: 'Ghế Nha khoa Cingol X3 Cart',
+      titleCategory: 'Ghế nha khoa',
+      titleDirectory: 'Thiết bị hỗ trợ & vận hành',
+    },
+    {
+      _id: '68f5f69831e0df0df3c67548',
+      titleProduct: 'Ghế Nha khoa Cingol X5 New',
+      titleCategory: 'Ghế nha khoa',
+      titleDirectory: 'Thiết bị hỗ trợ & vận hành',
+    },
+    {
+      _id: '68f5f69831e0df0df3c67549',
+      titleProduct: 'Ghế Nha khoa Cingol X5 New Cart',
+      titleCategory: 'Ghế nha khoa',
+      titleDirectory: 'Thiết bị hỗ trợ & vận hành',
+    },
+    {
+      _id: '68f5f69831e0df0df3c6754a',
+      titleProduct: 'Ghế nha khoa Cingol X1 New Top',
+      titleCategory: 'Ghế nha khoa',
+      titleDirectory: 'Thiết bị hỗ trợ & vận hành',
+    },
+    {
+      _id: '68f5f69831e0df0df3c6754b',
+      titleProduct: 'Hệ thống hút TPC 3-5 ghế (Wv3-Wv5)',
+      titleCategory: 'Thiết bị hỗ trợ vận hành ghế nha khoa',
+      titleDirectory: 'Thiết bị hỗ trợ & vận hành',
+    },
+    {
+      _id: '68f5f69831e0df0df3c6754c',
+      titleProduct: 'Hệ thống hút TPC 3-5 ghế (Wv3R/Wv5R)',
+      titleCategory: 'Thiết bị hỗ trợ vận hành ghế nha khoa',
+      titleDirectory: 'Thiết bị hỗ trợ & vận hành',
+    },
+    {
+      _id: '68f5f69831e0df0df3c6752e',
+      titleProduct: 'Máy nén TPC 4 ghế (DC702)',
+      titleCategory: 'Thiết bị hỗ trợ vận hành ghế nha khoa',
+      titleDirectory: 'Thiết bị hỗ trợ & vận hành',
+    },
+    {
+      _id: '68f5f69831e0df0df3c6752f',
+      titleProduct: 'Máy nén TPC 2 ghế (DC701)',
+      titleCategory: 'Thiết bị hỗ trợ vận hành ghế nha khoa',
+      titleDirectory: 'Thiết bị hỗ trợ & vận hành',
+    },
+    {
+      _id: '68f5f69831e0df0df3c6753c',
+      titleProduct: 'Máy lấy cao Baolai C-Series (C7L)',
+      titleCategory: 'Thiết bị-vật tư hỗ trợ khác',
+      titleDirectory: 'Thiết bị hỗ trợ & vận hành',
+    },
+    {
+      _id: '68f5f69831e0df0df3c6753b',
+      titleProduct: 'Máy lấy cao Baolai Conch series (B5s)',
+      titleCategory: 'Thiết bị-vật tư hỗ trợ khác',
+      titleDirectory: 'Thiết bị hỗ trợ & vận hành',
+    },
+    {
+      _id: '68f5f69831e0df0df3c6754e',
+      titleProduct: 'Máy theo dõi bệnh nhân Vital Sign Monitor VT200A',
+      titleCategory: 'Thiết bị-vật tư hỗ trợ khác',
+      titleDirectory: 'Thiết bị hỗ trợ & vận hành',
+    },
+  ],
+  category: [
+    { title: 'Thiết bị hình ảnh' },
+    { title: 'Tay khoan và các loại tay máy hỗ trợ khác' },
+    { title: 'Thiết bị nội nha' },
+    { title: 'Thiết bị điều trị phục hồi thẩm mỹ' },
+    { title: 'Hệ thống vô khuẩn' },
+    { title: 'Ghế nha khoa' },
+    { title: 'Thiết bị hỗ trợ vận hành ghế nha khoa' },
+    { title: 'Thiết bị phẫu thuật implant' },
+    { title: 'Thiết bị-vật tư hỗ trợ khác' },
+  ],
+  directory: [
+    {
+      title: 'Thiết bị điều trị & phục hồi',
+      category: [
+        'Thiết bị nội nha',
+        'Thiết bị điều trị phục hồi thẩm mỹ',
+        'Thiết bị phẫu thuật implant',
+      ],
+    },
+    {
+      title: 'Thiết bị hỗ trợ & vận hành',
+      category: [
+        'Ghế nha khoa',
+        'Thiết bị hỗ trợ vận hành ghế nha khoa',
+        'Thiết bị-vật tư hỗ trợ khác',
+      ],
+    },
+    {
+      title: 'Thiết bị chẩn đoán & hình ảnh',
+      category: ['Thiết bị hình ảnh'],
+    },
+    {
+      title: 'Thiết bị vô khuẩn & an toàn',
+      category: ['Hệ thống vô khuẩn'],
+    },
+    {
+      title: 'Dụng cụ cầm tay & máy hỗ trợ',
+      category: ['Tay khoan và các loại tay máy hỗ trợ khác'],
+    },
+  ],
 }
