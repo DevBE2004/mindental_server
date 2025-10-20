@@ -90,6 +90,7 @@ const getAll = async (req, res) => {
   if (name) queries.name = { $regex: new RegExp(name, 'i') }
   if (email) queries.email = { $regex: new RegExp(email, 'i') }
   if (mobile) queries.mobile = { $regex: new RegExp(mobile, 'i') }
+  const total = await User.countDocuments(queries)
   const totalPages = Math.ceil(total / limit)
 
   const users = await User.find(queries)
@@ -247,7 +248,6 @@ const resetPassword = async (req, res) => {
 }
 const addToCart = async (req, res) => {
   const { products } = req.body
-  console.log('RQ: ', req.body)
   const user = await User.findById(req.user.id).select('cart')
 
   products.forEach(requestProduct => {
