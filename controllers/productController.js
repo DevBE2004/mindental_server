@@ -181,31 +181,31 @@ const insertData = async (req, res) => {
   // )
 
   // 🧩 Update category và directory cho từng sản phẩm
-  await Promise.all(
-    productCategory.map(async item => {
-      const categoryId = categoryMap[item.titleCategory?.trim()]
-      const directoryId = directoryMap[item.titleDirectory?.trim()]
+  // await Promise.all(
+  //   productCategory.map(async item => {
+  //     const categoryId = categoryMap[item.titleCategory?.trim()]
+  //     const directoryId = directoryMap[item.titleDirectory?.trim()]
 
-      if (!categoryId) {
-        console.warn(`⚠️ Không tìm thấy category: ${item.titleCategory}`)
-        return
-      }
-      if (!directoryId) {
-        console.warn(`⚠️ Không tìm thấy directory: ${item.titleDirectory}`)
-        return
-      }
+  //     if (!categoryId) {
+  //       console.warn(`⚠️ Không tìm thấy category: ${item.titleCategory}`)
+  //       return
+  //     }
+  //     if (!directoryId) {
+  //       console.warn(`⚠️ Không tìm thấy directory: ${item.titleDirectory}`)
+  //       return
+  //     }
 
-      const updated = await Product.updateOne(
-        { title: item.titleProduct.trim() },
-        { category: categoryId, directory: directoryId },
-        { new: true },
-      )
+  //     const updated = await Product.updateOne(
+  //       { title: item.titleProduct.trim() },
+  //       { category: categoryId, directory: directoryId },
+  //       { new: true },
+  //     )
 
-      if (updated.matchedCount === 0) {
-        console.warn(`⚠️ Không tìm thấy sản phẩm: ${item.titleProduct}`)
-      }
-    }),
-  )
+  //     if (updated.matchedCount === 0) {
+  //       console.warn(`⚠️ Không tìm thấy sản phẩm: ${item.titleProduct}`)
+  //     }
+  //   }),
+  // )
 
   return res.json({
     success: true,
