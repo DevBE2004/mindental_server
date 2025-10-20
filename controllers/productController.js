@@ -155,7 +155,16 @@ const getOne = async (req, res) => {
 const insertData = async (req, res) => {
   // await Promise.all(category.map(async item => await Category.create(item)))
   // await Promise.all(product.map(async item => await Product.create(item)))
-
+  await Promise.all(
+    product.map(
+      async item =>
+        await Product.updateOne(
+          { title: item.title },
+          { introduce: item.introduce },
+          { new: true },
+        ),
+    ),
+  )
   // 🧩 Lấy toàn bộ Category
   const categories = await Category.find().select(['_id', 'title'])
   const categoryMap = {}
