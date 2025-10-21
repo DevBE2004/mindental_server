@@ -10,6 +10,8 @@ const port = process.env.PORT || 8888
 
 app.use(express.json({ limit: '100mb' }))
 app.use(express.urlencoded({ limit: '100mb', extended: true }))
+
+// CORS configuration
 app.use(
   cors({
     origin: [
